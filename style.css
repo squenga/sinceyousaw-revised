@@ -1,0 +1,752 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap')
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	color: white;
+/*	font-family: "Grenze Gotisch", serif;*/
+  	/*font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;*/
+}
+
+.mainContainer {
+	margin: 0px;
+}
+
+.homeContainer {}
+
+.titleDescription {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.titleDescription > div h2 {
+	align-items: center;
+	margin: 3vmin;
+}
+
+.titleDescription > div p {
+	background-color: #0e1111;
+	width: 100vmin;
+	height: auto;
+	margin: 10vmin;
+	padding: 5vmin;
+}
+
+.homeBox {
+	display: flex;
+	justify-content: left;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 5vmin;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+
+.card {
+	flex: 0 0 auto;
+ }
+}
+
+.homeBox div,
+.homeBox a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background-color: #0e1111;
+	width: 10vmin;
+	height: 26vmin;
+	margin: 3vmin;
+	padding: 10vmin;
+}
+
+.homeBox div {
+	transition: width 0.4s;
+}
+
+.homeBox div:hover {
+	width: 30vmin;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 25vmin;
+	margin: 0vmin;
+	padding: 0vmin;
+}
+
+h2 {
+	color: white;
+	font-family: "Sarabun", sans-serif;
+	font-size: 12vmin;
+	/*-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;*/
+}
+
+h3 {
+	color: white;
+	font-size: 10vmin;
+}
+
+#homeTitle {
+	margin-right: 0vmin;
+}
+
+#homeTitle2 {
+	font-size: 8vmin;
+	margin-right: 0vmin;
+}
+
+#homeSubtitle {
+	font-size: 5vmin;
+	color: #fcbe11;
+}
+
+#homeSubDesc {
+	font-size: 3vmin;
+	color: #fcbe11;
+	background-color: #0e1111;
+}
+
+#menuTitle {
+	font-size: 5vmin;
+	margin-top: 0;
+}
+
+#infoBox {
+	margin: 4vmin;
+	width: auto;
+}
+
+#aImg {
+	font-family: "Protest Revolution", sans-serif;
+	font-size: 5vmin;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-adventure-game-volcano-theme-background-image_2158131.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#aHeader {
+	font-family: "Protest Revolution", sans-serif;
+	font-size: 15vmin;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-adventure-game-volcano-theme-background-image_2158131.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.aMovie {
+	font-family: "Protest Revolution", sans-serif;
+	margin-top: 10vmin;
+}
+
+#eImg {
+	font-family: "Nanum Pen Script", cursive;
+	font-size: 5vmin;
+	background-image: url("https://wallpapers.com/images/hd/sleeping-anime-sad-girl-qikbiurva70mu0z5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#eHeader {
+	font-family: "Nanum Pen Script", cursive;
+	font-size: 15vmin;
+	background-image: url("https://wallpapers.com/images/hd/sleeping-anime-sad-girl-qikbiurva70mu0z5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.eMovie {
+	font-family: "Nanum Pen Script", cursive;
+	margin-top: 10vmin;
+}
+
+#pImg {
+	font-family: "Grenze Gotisch", serif;
+	font-size: 5vmin;
+	background-image: url("https://helloendless.com/wp-content/uploads/2022/03/event-planning-politics.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#pHeader {
+	font-family: "Grenze Gotisch", serif;
+	font-size: 15vmin;
+	background-image: url("https://helloendless.com/wp-content/uploads/2022/03/event-planning-politics.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.pMovie {
+	font-family: "Grenze Gotisch", serif;
+	margin-top: 10vmin;
+}
+
+#tImg {
+	font-family: "Metal Mania", system-ui;
+	font-size: 5vmin;
+	background-image: url("https://i.pinimg.com/736x/42/63/08/426308ba91a8d4b431ef3accd96f3eac.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#tHeader {
+	font-family: "Metal Mania", system-ui;
+	font-size: 15vmin;
+	background-image: url("https://i.pinimg.com/736x/42/63/08/426308ba91a8d4b431ef3accd96f3eac.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.tMovie {
+	font-family: "Metal Mania", system-ui;
+	margin-top: 10vmin;
+}
+
+#vImg {
+	font-family: "Bruno Ace SC", sans-serif;
+	font-size: 5vmin;
+	background-image: url("https://img.freepik.com/premium-photo/ai-generated-ai-generative-pink-purple-abstract-galaxy-space-planet-landscape-background_95211-39610.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#vHeader {
+	font-family: "Bruno Ace SC", sans-serif;
+	font-size: 15vmin;
+	background-image: url("https://img.freepik.com/premium-photo/ai-generated-ai-generative-pink-purple-abstract-galaxy-space-planet-landscape-background_95211-39610.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.vMovie {
+	font-family: "Bruno Ace SC", sans-serif;
+	margin-top: 10vmin;
+}
+
+.movieContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*/*.infoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: cente*/r;
+}*/
+
+.infoContainer,
+.synopsisContainer {
+	flex: 1;
+}
+
+.synopsisContainer p {}
+
+
+.movieContainer > div {
+	margin-left: 2vmin;
+	margin-right: 2vmin;
+}
+
+.movieContainer > div > h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20vmin;
+	height: 100%;
+	margin: 10vmin;
+}
+
+.infoTitle {
+	font-size: 8vmin;
+	margin-bottom: 0;
+}
+
+.movieContainer > div > p {
+	width: 50vmin;
+	height: auto;
+}
+
+.moodBoardContainer {
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
+
+.moodBoard {
+	width: 120vmin;
+	height: auto;
+	margin-top: 0;
+	margin-bottom: 25vmin;
+}
+
+.moodTitle {
+	display: flex;
+	justify-content: center;
+	margin-top: 0vmin;
+}
+
+.menuWrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+}
+
+.menuWrapper div {
+	display: flex;
+	justify-content: right;
+	margin-left: 5vmin;
+	background-color: black;
+}
+
+.dropButton {
+	background-color: #0e1111;
+	color: white;
+	padding: 3vmin;
+	font-size: 3vmin;
+	border: none;
+	opacity: 80%;
+}
+
+.synopsisDropButton {
+	background-color: #0e1111;
+	color: white;
+	padding: 3vmin;
+	font-size: 3vmin;
+	border: none;
+	margin-top: 4vmin;
+	opacity: 80%;
+}
+
+.synopsisDropdown {}
+
+.synopsisDropdownContent {
+	display: none;
+	background-color: #0e1111;
+	font-size: 1.5vmin;
+	min-width: 25vmin
+}
+
+.synopsisDropdownContent a {
+	color: white;
+	padding: 3vmin;
+	text-decoration: none;
+	display: block;
+}
+
+.headerContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#abstract {
+	border: 1px solid;
+	border-color: #fcbe11;
+	padding: 2vmin;
+}
+
+.headerContainer div h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 30vmin;
+	padding: 20vmin;
+}
+
+.headerContainer p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5vmin;
+	margin-left: 20vmin;
+	margin-right: 10vmin;
+	width: 155vmin;
+}
+
+#header {
+	width: 100%;
+	clear: both;
+	display: block;
+}
+
+.genreContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: black;
+	padding-bottom: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	background-color: black;
+}
+
+a {
+	color: white;
+	font-family: "Sarabun", sans-serif;
+	font-size: 12vmin;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fcbe11;
+}
+
+#dune {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#suicideSquad {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#pastLives {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#priscilla {
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/2/28/Priscilla_poster.jpeg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#colorPurple {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BYjBkNGE0NGYtYmU5Ny00NjRiLTk5MmYtMWU4NzYxMDE4YWY4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#oppenheimer {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#dontLookUp {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BZjcwZjY3NjAtNzkxZS00NmFjLTg1OGYtODJmMThhY2UwMTc5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#joker {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#parasite {
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/5/53/Parasite_%282019_film%29.png");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#cocaineBear {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BODAwZDQ5ZjEtZDI1My00MTFiLTg0ZjUtOGE2YTBkOTdjODFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#saltburn {
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/5/52/Saltburn_Film_Poster.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#midsommar {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#ladyBird {
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/6/61/Lady_Bird_poster.jpeg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#burlesque {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMjM1ZmI4NmUtMDJmMC00N2NkLTg1NGYtMDUyZDZlMmExNGNiXkEyXkFqcGdeQXVyMTkzODUwNzk@._V1_FMjpg_UX1000_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#laLaLand {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#meanGirls {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMjE1MDQ4MjI1OV5BMl5BanBnXkFtZTcwNzcwODAzMw@@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+#mammaMia {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BMTA2MDU0MjM0MzReQTJeQWpwZ15BbWU3MDYwNzgwNzE@._V1_.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 25vmin;
+	height: 35vmin;
+	margin-bottom: 0;
+}
+
+/* DROPDOWN HIDE FOR DESKTOP*/
+
+@media only screen and (min-width: 681px) {
+	.dropdownContent {
+		display: none;
+	}
+
+	.dropButton {
+		display: none;
+	}
+
+	.synopsisDropdownContent {
+		display: none;
+	}
+
+	.synopsisDropButton {
+		display: none;
+	}
+}
+
+/* PHONE MEDIA QUERY */
+
+@media only screen and (max-width : 680px) {
+
+	.titleDescription {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.homeBox div,
+	.homeBox a {
+		width: 6vmin;
+		height: 22vmin;
+		margin: 3vmin;
+		padding: 10vmin;
+	}
+	
+	.titleDescription > div h2 {
+		align-items: center;
+		font-size: 10vmin;
+		margin-top: 8vmin;
+		margin-bottom: 0vmin;
+	}
+
+	.titleDescription > div p {
+		font-size: 2vmin;
+	}
+
+	.homeBox {
+		margin-bottom: 10vmin;
+	}
+
+	#homeTitle2 {
+		font-size: 8vmin;
+		margin-left: 22vmin;
+	}
+
+	.headerContainer {
+		align-items: center;
+	}
+
+	h1 {
+		font-size: 15vmin;
+	}
+
+	h2 {
+		font-size: 12vmin;
+	}
+
+	h3 {
+		font-size: 2vmin;
+	}
+
+	.infoTitle {
+		font-size: 5vmin;
+		margin-bottom: 0;
+	}
+
+	.movieContainer > div > p {
+		font-size: 2.5vmin;
+		width: 30vmin;
+		height: auto;
+	}
+
+	.movieContainer > div {
+		margin-left: 1vmin;
+		margin-right: 1vmin;
+	}
+
+	.movieContainer > div > h3 {
+		margin: 5vmin;
+		margin-right: 2vmin;
+		margin-left: 1vmin;
+	}
+
+	.headerContainer div h1 {
+		font-size: 30vmin;
+		padding: 20vmin;
+	}
+
+	.headerContainer p {
+		font-size: 2.5vmin;
+		margin-left: 0vmin;
+		margin-right: 0vmin;
+		max-width: 80vmin;
+	}
+
+	.menuWrapper {
+		display: none;
+	}
+
+	.dropdown {
+		position: fixed;
+	}
+
+	.dropdownContent {
+		display: none;
+		background-color: #0e1111;
+		min-width: 5vmin;
+	}
+
+	.dropdownContent a {
+		color: white;
+		padding: 3vmin;
+		text-decoration: none;
+		display: block;
+	}
+
+	.dropdown:hover .dropdownContent {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dropdown:hover .dropButton {
+		background-color: #0e1111;
+		color: #fcbe11;
+	}
+
+	.synopsisDropdown:hover .synopsisDropdownContent {
+		display: flex;
+		flex-direction: column;
+		font-size: 2vmin;
+		width: 3vmin;
+	}
+
+	.synopsisDropdown:hover .synopsisDropButton {
+		background-color: #0e1111;
+		color: #fcbe11;
+	}
+
+	.synopsisContainer > p {
+		display: none;
+		font-size: 2vmin;
+	}
+
+	.moodBoardContainer {
+		display: flex;
+		justify-content: center;
+		margin-top: 0;
+	}
+
+	.moodBoard {
+		width: 100vmin;
+		height: auto;
+		margin-top: 0;
+		margin-bottom: 25vmin;
+	}
+
+	.vMovie {
+		font-size: 13vmin;
+	}
+
+	#aHeader {
+		font-size: 11vmin;
+	}
+
+	#eHeader {
+		font-size: 17vmin;
+	}
+
+	#pHeader {
+		font-size: 19vmin;
+	}
+
+	#vHeader {
+		font-size: 21.5vmin;
+	}
+
+}
